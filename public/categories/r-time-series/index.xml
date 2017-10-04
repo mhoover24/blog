@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Time Series on Linden&#39;s</title>
+    <link>http://example.com/categories/r-time-series/</link>
+    <description>Recent content in R Time Series on Linden&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/categories/r-time-series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Time Series </title>
+      <link>http://example.com/post/time-series/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/time-series/</guid>
+      <description>times series is not impressive to me
+library(Lahman)library(ggplot2)library(sqldf)#extracting the data--------query&amp;lt;-&amp;quot;SELECT yearID,HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)#vidualizing the data--------ggplot()+geom_line(data=result,aes(x=yearID,y=HR))+geom_point(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homerun Totals Through the Years&amp;quot;)+xlab(&amp;quot;year&amp;quot;)+ylab(&amp;quot;homeruns&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>

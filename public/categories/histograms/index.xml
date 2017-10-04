@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Histograms on Linden&#39;s</title>
+    <link>http://example.com/categories/histograms/</link>
+    <description>Recent content in Histograms on Linden&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/categories/histograms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Histograms</title>
+      <link>http://example.com/post/histograms/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/histograms/</guid>
+      <description>Histograms are very complicated to learn for me
+library(sqldf)library(Lahman)library(ggplot2)# extracting the data------query&amp;lt;-&amp;quot;SELECT yearID, HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)# visulizing the data-----ggplot()+#geom_point(data=result,aes(x=yearID,y=HR))+geom_line(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homerun Total&amp;#39;s Throughout the Year&amp;#39;s&amp;quot;)+xlab(&amp;quot;year&amp;quot;)+ylab(&amp;quot;homeruns&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>

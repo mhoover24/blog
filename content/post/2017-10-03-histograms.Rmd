@@ -1,0 +1,39 @@
+---
+title: Histograms
+author: Michelle
+date: '2017-10-03'
+slug: histograms
+categories:
+  - R
+  - Histograms
+tags: []
+---
+
+Histograms are very complicated to learn for me
+
+```{r message=FALSE,warning=FALSE}
+library(sqldf)
+library(Lahman)
+library(ggplot2)
+```
+
+```{r}
+# extracting the data------
+
+query<-"SELECT yearID, HR
+FROM Batting
+WHERE playerID='ruthba01'"
+
+result<-sqldf(query)
+
+# visulizing the data-----
+
+ggplot()+
+  #geom_point(data=result,aes(x=yearID,y=HR))+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  ggtitle("Ruth's Homerun Total's Throughout the Year's")+
+  xlab("year")+
+  ylab("homeruns")
+  
+```
+

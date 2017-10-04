@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Scatterplots on Linden&#39;s</title>
+    <link>http://example.com/categories/r-scatterplots/</link>
+    <description>Recent content in R Scatterplots on Linden&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/categories/r-scatterplots/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scatterplots</title>
+      <link>http://example.com/post/scatterplots/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/scatterplots/</guid>
+      <description>scatterplots are equally confusing
+library(Lahman)library(sqldf)library(ggplot2)#extracting data--------------query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_SOFROM BattingGROUP BY playerIDHAVING sum(HR)&amp;gt;=400&amp;quot;result&amp;lt;-sqldf(query)#visualizing the data--------------ggplot()+geom_point(data=result,aes(x=career_SO,y=career_HR),size=5,color=&amp;quot;red&amp;quot;)+ggtitle(&amp;quot;Career Strikeouts VS. Homeruns for Great Hitters&amp;quot;)+xlab(&amp;quot;career strikeouts&amp;quot;)+ylab(&amp;quot;career homeruns&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>

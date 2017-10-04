@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Histograms</title>
+      <link>http://example.com/categories/histograms/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/histograms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mathematics</title>
       <link>http://example.com/categories/mathematics/</link>
       <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
@@ -22,9 +31,36 @@
     <item>
       <title>R</title>
       <link>http://example.com/categories/r/</link>
-      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://example.com/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Bar Plots</title>
+      <link>http://example.com/categories/r-bar-plots/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/r-bar-plots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Scatterplots</title>
+      <link>http://example.com/categories/r-scatterplots/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/r-scatterplots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Time Series</title>
+      <link>http://example.com/categories/r-time-series/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/categories/r-time-series/</guid>
       <description></description>
     </item>
     

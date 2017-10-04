@@ -1,0 +1,41 @@
+---
+title: Scatterplots
+author: Michelle
+date: '2017-10-03'
+slug: scatterplots
+categories:
+  - R Scatterplots
+tags:
+  - visualization
+---
+
+scatterplots are equally confusing
+
+```{r message=FALSE,warning=FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+```
+
+
+```{r}
+#extracting data--------------
+
+query<-"SELECT playerID,sum(HR) AS career_HR,sum(SO) AS career_SO
+FROM Batting
+GROUP BY playerID
+HAVING sum(HR)>=400"
+
+result<-sqldf(query)
+
+#visualizing the data--------------
+
+ggplot()+
+  geom_point(data=result,aes(x=career_SO,y=career_HR),size=5,color="red")+
+  ggtitle("Career Strikeouts VS. Homeruns for Great Hitters")+
+  xlab("career strikeouts")+
+  ylab("career homeruns")
+
+
+```
+
